@@ -4,7 +4,6 @@ import java.util.Optional;
 
 public class DemoOptional {
 	private String hallo;
-
 	public static void main(String[] args) {
 		DemoOptional t = new DemoOptional();
 		if (t.getHallo().equals("hallo"))
