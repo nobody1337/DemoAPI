@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 public class Streams {
 
-    private String[]test = {"Hallo","Welt",};
+    private String[]test = {"Hallo","Welt"};
     public static void main(String[] args) {
 
         Streams s = new Streams();
