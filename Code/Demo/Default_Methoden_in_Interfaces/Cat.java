@@ -6,14 +6,12 @@ public class Cat implements Default{
         daisy.bruellen();
         daisy.bruellen_d();
     }
+    
     //Das ist die abstrakte Methode aus dem funktionalen Interface
     @Override
     public void bruellen() {
         System.out.println("Miauuu,ich bin eine Katze");
     }
-    //Das ist die default Methode aus dem funktionalen Interface
-    @Override
-    public void bruellen_d() {
-        Default.super.bruellen_d();
-    }
+    
+
 }

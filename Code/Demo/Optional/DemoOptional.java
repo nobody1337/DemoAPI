@@ -14,13 +14,13 @@ public class DemoOptional {
 			System.out.println("Keine NullPointerEx");
 		}
 	}
-//	public String getHallo() {
-//		return hallo;
-//	}
-//
-	public Optional<String> getHallo() {
-		return Optional.ofNullable(hallo);
+	public String getHallo() {
+		return hallo;
 	}
+
+//	public Optional<String> getHallo() {
+//		return Optional.ofNullable(hallo);
+//	}
 	public void setHallo(String hallo) {
 		this.hallo = hallo;
 	}
